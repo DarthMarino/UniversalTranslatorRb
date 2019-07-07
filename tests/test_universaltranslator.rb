@@ -1,5 +1,5 @@
 require 'test-unit'
-require_relative 'universaltranslator'
+require 'universaltranslator'
 
 # TestNumberTranslator tests differents inputs a modified universal translator to instead of printing returning errors.
 class TestNumberTranslator < Test::Unit::TestCase

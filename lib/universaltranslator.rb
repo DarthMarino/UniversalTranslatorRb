@@ -90,7 +90,7 @@ class UniversalTranslator
     loop do
       break if i == value.length
 
-      tmp_string = (value[i].to_s + ' ' + from[i].to_s + ' ' + to[i].to_s + ' ' + outputs[i].to_s)
+      tmp_string = (value[i].to_s + ' ' + @translations.key(from[i]).to_s + ' ' +  @translations.key(to[i]).to_s + ' ' + outputs[i].to_s)
       file.puts tmp_string
       i += 1
     end
