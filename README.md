@@ -5,6 +5,10 @@ Permite convertir un valor en una unidad de medida a otra unidad de medida dentr
 ## Análisis 
 Recibiremos un archivo como input, el cual tendrá valor, unidad de origen, y unidad a convertir. Luego el programa leerá el archivo y luego creara un archivo output el cual tendrá otro campo llamado resultado, que es lo que esperábamos.
 
+## Instalación
+
+    gem install universaltranslator
+
 ## Utilización
 El input será introducido de la siguiente forma.(un archivo tipo txt)
 
