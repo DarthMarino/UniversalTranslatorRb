@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'universaltranslator'
-  s.version     = '1.0.1'
+  s.version     = '1.1.0'
   s.date        = '2019-05-19'
   s.summary     = 'Translate to international units'
   s.description = 'A simple gem to translate metric units'
@@ -8,6 +8,6 @@ Gem::Specification.new do |s|
   s.email       = 'marinogomez24@gmail.com'
   s.files       = ['lib/universaltranslator.rb']
   s.homepage    =
-    'https://rubygems.org/gems/universaltranslator'
+    'https://github.com/DarthMarino/UniversalTranslatorRb'
   s.license = 'MIT'
 end
